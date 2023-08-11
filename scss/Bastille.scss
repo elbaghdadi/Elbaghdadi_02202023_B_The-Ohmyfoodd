@@ -352,10 +352,10 @@ visibility: visible;
  
                           /*                                              */
 
-/* Mobile Iphone 8 */
+/* Mobile Iphone 8 */  
 
-@media screen  and (min-width: 375px) 
-               and (max-width: 667px) {
+@media screen  and (min-width: 320px) 
+                {
 
 
 
@@ -407,6 +407,7 @@ visibility: visible;
                width: 370px;
                height: 62px;  
                background: whitesmoke;
+               background: rgb(243, 5, 5);
                
              .accomm-text h1 {
                 font-family: 'Shrikhand';
