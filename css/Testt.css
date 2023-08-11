@@ -1,0 +1,98 @@
+.Acard {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  box-shadow: 0 0px 10px 0 rgba(197, 197, 197, 0.7019607843);
+  overflow: hidden;
+  transition: 0.3s;
+  margin: 20px 0px;
+  cursor: pointer;
+  animation: card-slide-up 2s ease-in-out forwards;
+}
+
+.Acard:hover {
+  transform: scale(0.98);
+  box-shadow: 0px 0px 5px 0px rgba(162, 162, 162, 0.7019607843);
+}
+
+.Acard:hover > .CardEffect {
+  display: flex;
+  margin-right: 0px;
+}
+
+.Acard:hover > .CardEffect i {
+  animation: spin 0.5s ease-in-out;
+}
+
+.Acard.accomm-text {
+  white-space: nowrap;
+  flex-grow: 1;
+  padding: 15px;
+  overflow: hidden;
+}
+
+.Acard.accomm-text h3, .Acard.accomm-text h5 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.Acard.menu-price {
+  display: flex;
+  padding: 15px;
+}
+
+.Acard.price h5 {
+  align-self: flex-end;
+}
+
+.order {
+  text-align: center;
+  margin-bottom: 30px;
+  width: 100%;
+  border: 6px solid red;
+}
+
+.Acard:hover > .tick-container {
+  display: flex;
+  margin-right: 0px;
+}
+
+.Acard:hover > .tick-container i {
+  animation: spin 0.5s ease-in-out;
+}
+
+.tick-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #99E2D0;
+  color: white;
+  font-size: 25px;
+  width: 60px;
+  margin-right: -60px;
+  transition: 0.5s ease;
+}
+
+.CardEffect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #99E2D0;
+  color: white;
+  font-size: 25px;
+  width: 60px;
+  margin-right: -60px;
+  transition: 0.5s ease;
+}
+
+@keyframes card-slide-up {
+  0% {
+    opacity: 0;
+    margin-top: 50px;
+    /* using margin instead of transform negates need for nth child delay and also allows for functioning hover scale. used instead of transform: rotateX(*/
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}/*# sourceMappingURL=Testt.css.map */
