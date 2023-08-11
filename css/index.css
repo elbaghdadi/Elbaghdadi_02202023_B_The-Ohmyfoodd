@@ -1121,7 +1121,7 @@ fieldset.filters {
 }
 /*/////////////////////////////////////////////
 /*             Tablet    @media screen and (min-width: 768px) and (max-width: 991px) {               */
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) {
   column {
     flex: 1;
   }
@@ -1268,6 +1268,16 @@ fieldset.filters {
     row-gap: 50px;
     -moz-column-gap: 20px;
          column-gap: 20px;
+  }
+  .Rcard {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    margin-top: -30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(150, 150, 150, 0.583);
+    transition: 0.3s;
   }
   .Acard {
     display: flex;
