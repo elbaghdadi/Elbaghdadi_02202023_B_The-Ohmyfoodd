@@ -348,7 +348,7 @@ a {
 
 /*                                              */
 /* Mobile Iphone 8 */
-@media screen and (min-width: 375px) and (max-width: 667px) {
+@media screen and (min-width: 120px) {
   header {
     flex-direction: row;
     height: 60px;
@@ -395,6 +395,7 @@ a {
     width: 370px;
     height: 62px;
     background: whitesmoke;
+    background: rgb(243, 5, 5);
   }
   .Mtitle .accomm-text h1 {
     font-family: "Shrikhand";
