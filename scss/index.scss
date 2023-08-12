@@ -1281,11 +1281,11 @@
     width:fit-content;
     height: fit-content;
     flex-wrap: wrap;
-    flex-direction:row;
+   
     //justify-content:space-around;
     justify-content:space-evenly;
     background-color: whitesmoke;
-    background-color: #537071;
+    background-color: #0ae87d;
     border-radius: 20px;
     padding: 10px;
     row-gap: 50px;
@@ -1294,16 +1294,17 @@
 .Rcard {
       display: flex;
       flex-direction: column;
-      width:350px;
-      height:100%;
+      
+      height:fit-content;
+      width: max-content;
       margin-top: -30px;
       border-radius: 20px;
       box-shadow: 0 0 10px rgba(150, 150, 150, 0.583);
       transition: 0.3s; }
  .Acard {
     display: flex;
-    width:350px;
-    height:100%;
+    width: max-content;
+    height:fit-content;
     flex-direction: column;
     margin-top: -30px;
     border-radius: 20px;
