@@ -442,7 +442,7 @@ fieldset.filters {
   display: flex;
   font-size: 17px;
   color: rgb(35, 100, 97);
-  background-color: #5ac0bb;
+  background-color: #c0795a;
   border-radius: 3px;
   padding: 10px;
   height: -moz-fit-content;
@@ -979,7 +979,7 @@ fieldset.filters {
     margin-top: -5px;
   }
   .fa-stack {
-    margin-left: 260px;
+    margin-left: 92%;
     margin-top: -75px;
     font-size: 25px;
     width: 25px;
@@ -1253,23 +1253,15 @@ fieldset.filters {
     height: -moz-fit-content;
     height: fit-content;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: space-evenly;
     background-color: whitesmoke;
-    background-color: #0ae87d;
     border-radius: 20px;
     padding: 10px;
-    row-gap: 50px;
-    -moz-column-gap: 60px;
-         column-gap: 60px;
   }
   .Rcard {
     display: flex;
-    flex-direction: column;
-    height: -moz-fit-content;
-    height: fit-content;
-    width: -moz-max-content;
-    width: max-content;
+    height: auto;
+    width: 330px;
     margin-top: -30px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(150, 150, 150, 0.583);
@@ -1277,11 +1269,8 @@ fieldset.filters {
   }
   .Acard {
     display: flex;
-    width: -moz-max-content;
-    width: max-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    flex-direction: column;
+    height: auto;
+    width: 330px;
     margin-top: -30px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(150, 150, 150, 0.583);
@@ -1292,7 +1281,7 @@ fieldset.filters {
     transform: scale(1.02);
   }
   .accomm-text {
-    height: 10vh;
+    height: 100px;
   }
   .accommthumb {
     max-width: 100%;
