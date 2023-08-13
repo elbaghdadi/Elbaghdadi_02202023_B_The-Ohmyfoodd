@@ -407,14 +407,14 @@ visibility: visible;
                width: 370px;
                height: 62px;  
                background: whitesmoke;
-               
+              }  
              .accomm-text h1 {
                 font-family: 'Shrikhand';
              }
-               }  
+               
              .fa-stack{
                 margin-left: 320px;
-              // margin-left: 96%;  
+               margin-left: 92%;  
                 margin-top: -60px;
                 width: 30px;
                 font-size: 30px;  }
@@ -688,8 +688,13 @@ visibility: visible;
           
       font-family: Shrikhand, sans-serif;
 
-
                }  
+               .fa-stack{
+                margin-left: 320px;
+               margin-left: 92%;  
+                margin-top: -60px;
+                width: 30px;
+                font-size: 30px;  }
     
     .Mcard {
       display: flex;
