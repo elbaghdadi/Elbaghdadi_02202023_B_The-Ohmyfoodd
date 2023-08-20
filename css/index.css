@@ -75,7 +75,7 @@ a {
   height: 67px;
   margin-left: 0px;
   margin-top: 0px;
-  background-color: rgb(224, 224, 222);
+  background-color: rgb(224, 224, 28);
   display: flex;
   white-space: nowrap;
   justify-content: center;
@@ -620,7 +620,7 @@ fieldset.filters {
   }
 }
 /* Mobile Iphone 8 */
-@media screen and (min-width: 120px) {
+@media screen and (min-width: 10px) {
   header {
     justify-content: center;
     height: 60px;
@@ -684,6 +684,7 @@ fieldset.filters {
   }
   .search {
     display: flex;
+    box-shadow: 0 0 0 3px rgba(37, 37, 37, 0.2);
     background-color: rgb(224, 224, 222);
     height: 67px;
   }
@@ -731,7 +732,7 @@ fieldset.filters {
     cursor: pointer;
     margin-top: 15px;
     margin-bottom: 20px;
-    background-color: #ce85b8;
+    background-color: #d051e9;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(150, 150, 150, 0.583);
     transition: 0.3s;
@@ -929,7 +930,6 @@ fieldset.filters {
     height: 250px;
     background-color: white;
     border-radius: 20px;
-    padding: 5px;
     cursor: pointer;
     box-shadow: 0 0 10px rgba(150, 150, 150, 0.583);
     transition: 0.3s;
@@ -962,7 +962,6 @@ fieldset.filters {
     height: 250px;
     background-color: white;
     border-radius: 20px;
-    padding: 5px;
     cursor: pointer;
     box-shadow: 0 0 10px rgba(150, 150, 150, 0.583);
     transition: 0.3s;
@@ -1337,7 +1336,7 @@ fieldset.filters {
     margin-left: 0px;
     margin-top: 15px;
     margin-bottom: 20px;
-    background-color: #ce85b8;
+    background-color: #d051e9;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(150, 150, 150, 0.583);
     transition: 0.3s;
