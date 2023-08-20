@@ -11,11 +11,11 @@ html {
 body {
   overflow-x: hidden;
   background: whitesmoke;
-  font-family: Roboto, sans-serif;
 }
 
 h2 {
   font-family: "Roboto";
+  font-size: 18px;
 }
 
 h3 {
@@ -86,7 +86,7 @@ a {
 
 .fa-stack {
   display: flex;
-  margin-left: 96%;
+  margin-left: 93%;
   margin-top: -55px;
   width: 30px;
   font-size: 30px;
@@ -111,17 +111,18 @@ a {
 .Mtitle {
   display: flex;
   width: 100%;
-  height: 92px;
+  height: 62px;
   background: whitesmoke;
   border-radius: 10px;
   padding: 10px;
   flex-direction: column;
-  font-family: Shrikhand, sans-serif;
   justify-content: space-between;
 }
 
 .Mtitle h2 {
-  font-family: Shrikhand, sans-serif;
+  font-family: "Roboto" sans-serif;
+  font-style: italic;
+  font-size: 36px;
 }
 
 .Mcard {
@@ -133,6 +134,10 @@ a {
   border-top-right-radius: 20px;
   box-shadow: 0 0 10px rgba(150, 150, 150, 0.583);
   transition: 0.3s;
+}
+
+.accomm-text h1 {
+  font-family: "Shrikhand";
 }
 
 /* Main Section */
@@ -299,13 +304,12 @@ a {
   flex-direction: column;
   width: 200px;
   color: whitesmoke;
-  background: whitesmoke;
   height: 50px;
   cursor: pointer;
-  margin-left: 43%;
+  margin-left: 24%;
   margin-top: 30px;
   margin-bottom: 30px;
-  background-color: #f593d9;
+  background-color: #d051e9;
   text-align: center;
   border-radius: 20px;
   padding-top: 14px;
@@ -330,8 +334,10 @@ a {
 }
 
 .footer h2 {
-  font-family: Shrikhand, sans-serif;
   margin-bottom: 20px;
+  font-family: "Roboto" sans-serif;
+  font-style: italic;
+  font-size: 20px;
 }
 
 .footer li {
@@ -348,213 +354,233 @@ a {
 
 /*                                              */
 /* Mobile Iphone 8 */
-@media screen and (min-width: 375px) and (max-width: 667px) {
-  header {
-    flex-direction: row;
-    height: 60px;
-    margin-top: 0px;
-    padding-bottom: 2px;
-    align-content: space-between;
-    display: flex;
-    background-color: whitesmoke;
-  }
-  body {
-    background: whitesmoke;
-    font-family: "Shrikhand";
-  }
-  header a:hover {
-    border-top: none;
-    padding-bottom: 0px;
-    color: #0065fc;
-    width: 100%;
-  }
-  .logo {
-    display: none;
-  }
-  .mobilelogo {
-    display: block;
-    width: 100px;
-    height: 40px;
-    margin-left: 90px;
-    align-self: center;
-    margin-bottom: 0px;
-    background-color: whitesmoke;
-    margin-bottom: 0px;
-  }
-  /*  back buttom  */
-  .homebutton {
-    margin-left: 15px;
-    margin-top: 4px;
-    cursor: pointer;
-    align-self: center;
-    font-size: 25px;
-    border: none;
-  }
-  /* Menu title   */
-  .Mtitle {
-    width: 370px;
-    height: 62px;
-    background: whitesmoke;
-  }
-  .Mtitle .accomm-text h1 {
-    font-family: "Shrikhand";
-  }
-  .fa-stack {
-    margin-left: 320px;
-    margin-top: -60px;
-    width: 30px;
-    font-size: 30px;
-  }
-  .full-heart {
-    opacity: 0;
-    background: linear-gradient(#9356DC, #FF79DA 75%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    font-size: 30px;
-    -webkit-text-fill-color: transparent;
-    transition: 0.3s;
-  }
-  .full-heart:hover {
-    opacity: 100%;
-    cursor: pointer;
-  }
-  .Mcard {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 65px;
-    margin-top: -3px;
-    background-color: #f5f7f5;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    box-shadow: 0 0 10px rgba(150, 150, 150, 0.583);
-    transition: 0.3s;
-  }
-  /* Main Section */
-  .Main {
-    display: flex;
-    background-color: #f7f7f7;
-    flex-direction: column;
-    row-gap: 10px;
-    -moz-column-gap: 10px;
-         column-gap: 10px;
-  }
-  .accomm-headings {
-    width: 100%;
-    font-weight: normal;
-    height: -moz-fit-content;
-    height: fit-content;
-  }
-  #ENTREES {
-    width: auto;
-    margin-top: 10px;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: #f7f7f7;
-    padding: 2px;
-    padding-right: 2px;
-    row-gap: 10px;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  #ENTREES h2 {
-    margin-left: 6px;
-  }
-  #DESSERTS {
-    width: auto;
-    margin-top: 10px;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: #f7f7f7;
-    padding: 2px;
-    padding-right: 2px;
-    row-gap: 10px;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  #DESSERTS h2 {
-    margin-left: 6px;
-  }
-  /* CardEffect */
-  .Acard {
-    display: flex;
-    width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 0px 10px 0 rgba(197, 197, 197, 0.7019607843);
-    overflow: hidden;
-    transition: 0.3s;
-    margin-left: 0px;
-    justify-content: space-around;
-    background-color: #f7f7f7;
-    cursor: pointer;
-    animation: card-Delay 4s ease-in-out forwards;
-  }
-  /*    Main Dish section  */
-  #Mdish {
-    width: auto;
-    margin-top: 10px;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: #f7f7f7;
-    padding: 2px;
-    padding-right: 2px;
-    row-gap: 10px;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  #Mdish h2 {
-    margin-left: 6px;
-  }
-  .accommthumb {
-    width: 100%;
-  }
-  /* Order button */
-  .Bcard {
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    color: whitesmoke;
-    height: 50px;
-    cursor: pointer;
-    margin-left: 24%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    background-color: #f593d9;
-    text-align: center;
-    border-radius: 20px;
-    padding-top: 14px;
-    box-shadow: 0 0 10px rgba(245, 230, 230, 0.583);
-    transition: 0.3s;
-  }
-  .Bcard:hover {
-    box-shadow: 0 0 10px rgb(51, 51, 51);
-    transform: scale(1.02);
-  }
-  /* Footer section */
-  .footer {
-    display: flex;
-    background-color: #5e5c5c;
-    height: -moz-fit-content;
-    height: fit-content;
-    color: whitesmoke;
-    padding: 25px 20px 20px 20px;
-    gap: 20px;
-  }
-  .footer h2 {
-    font-family: Shrikhand, sans-serif;
-    margin-bottom: 20px;
-  }
-  .footer li {
-    color: whitesmoke;
-  }
-  .footer a {
-    text-decoration: none;
-    color: whitesmoke;
-    font-weight: 400;
-    height: -moz-fit-content;
-    height: fit-content;
-  }
+header {
+  flex-direction: row;
+  height: 60px;
+  margin-top: 0px;
+  padding-bottom: 2px;
+  align-content: space-between;
+  display: flex;
+  background-color: whitesmoke;
 }
+
+body {
+  background: whitesmoke;
+  font-family: "Shrikhand";
+}
+
+header a:hover {
+  border-top: none;
+  padding-bottom: 0px;
+  color: #0065fc;
+  width: 100%;
+}
+
+.logo {
+  display: none;
+}
+
+.mobilelogo {
+  display: block;
+  width: 100px;
+  height: 40px;
+  margin-left: 90px;
+  align-self: center;
+  margin-bottom: 0px;
+  background-color: whitesmoke;
+  margin-bottom: 0px;
+}
+
+/*  back buttom  */
+.homebutton {
+  margin-left: 15px;
+  margin-top: 4px;
+  cursor: pointer;
+  align-self: center;
+  font-size: 25px;
+  border: none;
+}
+
+/* Menu title   */
+/*
+             .Mtitle { 
+               width:96%;
+               height: 62px;  
+               background: whitesmoke;
+              }  
+             .accomm-text h1 {
+                font-family: 'Shrikhand';
+             }
+
+             .fa-stack{
+               // margin-left: 320px;
+                margin-left: 95%;  
+                margin-top: -60px;
+                width: 30px;
+                font-size: 30px;  }
+
+             .full-heart {
+                 opacity: 0;
+                 background: linear-gradient(#9356DC, #FF79DA 75%);
+                 -webkit-background-clip: text;
+                 background-clip: text;
+                 font-size: 30px;
+                 -webkit-text-fill-color: transparent;
+                 transition: 0.3s;
+                         }
+             .full-heart:hover {
+                  opacity: 100%;
+                  cursor: pointer;
+                               }                
+*/
+.Mcard {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 65px;
+  margin-top: -3px;
+  background-color: #f5f7f5;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0 0 10px rgba(150, 150, 150, 0.583);
+  transition: 0.3s;
+}
+
+/* Main Section */
+.Main {
+  display: flex;
+  background-color: #f7f7f7;
+  flex-direction: column;
+  row-gap: 10px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+
+.accomm-headings {
+  width: 100%;
+  font-weight: normal;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+#ENTREES {
+  width: auto;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #f7f7f7;
+  padding: 2px;
+  padding-right: 2px;
+  row-gap: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#ENTREES h2 {
+  margin-left: 6px;
+}
+
+#DESSERTS {
+  width: auto;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #f7f7f7;
+  padding: 2px;
+  padding-right: 2px;
+  row-gap: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#DESSERTS h2 {
+  margin-left: 6px;
+}
+
+/* CardEffect */
+.Acard {
+  display: flex;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0px 10px 0 rgba(197, 197, 197, 0.7019607843);
+  overflow: hidden;
+  transition: 0.3s;
+  margin-left: 0px;
+  justify-content: space-around;
+  background-color: #f7f7f7;
+  cursor: pointer;
+  animation: card-Delay 4s ease-in-out forwards;
+}
+
+/*    Main Dish section  */
+#Mdish {
+  width: auto;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #f7f7f7;
+  padding: 2px;
+  padding-right: 2px;
+  row-gap: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#Mdish h2 {
+  margin-left: 6px;
+}
+
+.accommthumb {
+  width: 100%;
+}
+
+/* Order button */
+/*          .Bcard {
+              display: flex;
+             flex-direction: column;
+             width:200px;
+             color:whitesmoke;
+             height: 50px;
+             cursor: pointer;
+             margin-left: 24%;
+           // justify-content:center ;
+             margin-top: 30px;
+             margin-bottom: 30px;
+             background-color:#f593d9 ;
+             text-align: center;
+             border-radius: 20px;
+             padding-top: 14px;   
+             box-shadow: 0 0 10px rgba(245, 230, 230, 0.583);
+             transition: 0.3s; }
+
+           .Bcard:hover {
+              box-shadow: 0 0 10px rgb(51, 51, 51);
+              transform: scale(1.02);}
+*/
+/* Footer section */
+/*
+.footer {
+  display: flex;
+  background-color: #5e5c5c;
+  height: fit-content;
+  color:whitesmoke;
+
+  padding: 25px 20px 20px 20px;
+  gap:20px;
+     }
+.footer h2 {
+ //font-family: Shrikhand, sans-serif;
+ margin-bottom: 20px;
+}  
+.footer li  {
+    color:whitesmoke;
+        }
+
+.footer a {
+ text-decoration: none;
+ color:whitesmoke;
+ font-weight: 400;
+ height: fit-content;}  */
 /*////////////////////////////////////////////////  */
 /*             desktop                   */
 @media screen and (min-width: 992px) {
@@ -698,7 +724,7 @@ a {
     margin-left: 36%;
     margin-top: 30px;
     margin-bottom: 30px;
-    background-color: #f593d9;
+    background-color: #d051e9;
     text-align: center;
     border-radius: 20px;
     padding-top: 10px;
