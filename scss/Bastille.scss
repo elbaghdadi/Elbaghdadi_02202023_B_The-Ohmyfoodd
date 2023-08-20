@@ -10,14 +10,20 @@
             overflow-x: hidden;
             background: whitesmoke;
             font-family: Roboto, sans-serif;
+           // font-style : italic;
                       }
 
            h2 {
               font-family: 'Roboto';
+             // font-style : italic;
+             
+              
+
                  }
 
            h3 {
                font-family: 'Roboto';
+               //font-style : italic;
                   }
 
            header      {
@@ -112,16 +118,18 @@
                border-radius: 10px;
                padding: 10px;
                flex-direction: column;
-               
-                   
-               font-family: Shrikhand, sans-serif;
-
-            
                justify-content: space-between;
                
                         }  
+
+
               .Mtitle h2{
-                font-family: Shrikhand, sans-serif;
+                font-family: 'Roboto' sans-serif;
+                font-style :italic;
+                
+                font-size: 50px;
+              
+                
               }
              
              .Mcard {
@@ -333,9 +341,13 @@ visibility: visible;
             
                    padding: 25px 20px 20px 20px;
                    gap:20px;
+                   font-family: 'Roboto' sans-serif;
+                   font-style :italic;
+                   
+                   font-size: 40px;
                       }
                 .footer h2 {
-                  font-family: Shrikhand, sans-serif;
+                  //font-family: Shrikhand, sans-serif;
                   margin-bottom: 20px;
                 }  
                 .footer li  {
@@ -354,8 +366,8 @@ visibility: visible;
 
 /* Mobile Iphone 8 */
 
-@media screen  and (min-width: 375px) 
-               and (max-width: 667px) {
+//@media screen  and (min-width: 375px) 
+          //     and (max-width: 667px) {
 
 
 
@@ -574,7 +586,7 @@ visibility: visible;
   gap:20px;
      }
 .footer h2 {
- font-family: Shrikhand, sans-serif;
+ //font-family: Shrikhand, sans-serif;
  margin-bottom: 20px;
 }  
 .footer li  {
@@ -587,7 +599,7 @@ visibility: visible;
  font-weight: 400;
  height: fit-content;}
 
-            }   
+            //}   
 
             
 
