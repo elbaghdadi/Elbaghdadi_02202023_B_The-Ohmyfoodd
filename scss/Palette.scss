@@ -9,15 +9,21 @@
            
             overflow-x: hidden;
             background: whitesmoke;
-            font-family: Roboto, sans-serif;
+           // font-family: Roboto, sans-serif;
+           // font-style : italic;
                       }
 
            h2 {
               font-family: 'Roboto';
+              //font-style : italic;
+              font-size: 18px;
+              
+
                  }
 
            h3 {
                font-family: 'Roboto';
+               //font-style : italic;
                   }
 
            header      {
@@ -83,7 +89,7 @@
              .fa-stack{
                 // margin-left: 1040px;
                  display:flex;
-                 margin-left: 96%;  
+                 margin-left: 93%;  
                  margin-top: -55px;
                  width: 30px;
                  font-size: 30px;  }
@@ -107,21 +113,23 @@
             .Mtitle { 
                display: flex;
                width: 100%;
-               height:92px;
+               height:62px;
                background:whitesmoke;  
                border-radius: 10px;
                padding: 10px;
                flex-direction: column;
-               
-                   
-               font-family: Shrikhand, sans-serif;
-
-            
                justify-content: space-between;
                
                         }  
+
+
               .Mtitle h2{
-                font-family: Shrikhand, sans-serif;
+                font-family: 'Roboto' sans-serif;
+                font-style :italic;
+                
+                font-size: 36px;
+              
+                
               }
              
              .Mcard {
@@ -135,7 +143,11 @@
         
               
                           }   
-              
+          .accomm-text h1 {
+                             font-family: 'Shrikhand';
+                          }
+
+                               
 /* Main Section */
 
              .Main  {
@@ -296,27 +308,23 @@ visibility: visible;
 
 
 /* Order button */
-              .Bcard {
-                 display: flex;
-                 flex-direction: column;
-                 width:200px;
-                 color:whitesmoke;
-                 background: whitesmoke;
-                 height: 50px;
-                 cursor: pointer;
-                 margin-left: 43%;
-                // justify-content: center;
-                 margin-top: 30px;
-                 margin-bottom: 30px;
-                 background-color:#f593d9 ;
-                
-                 text-align: center;
-                 border-radius: 20px;
-                 padding-top: 14px;
-                 box-shadow: 0 0 10px rgba(245, 230, 230, 0.583);
-                 transition: 0.3s; }
-
-
+.Bcard {
+  display: flex;
+ flex-direction: column;
+ width:200px;
+ color:whitesmoke;
+ height: 50px;
+ cursor: pointer;
+ margin-left: 24%;
+// justify-content:center ;
+ margin-top: 30px;
+ margin-bottom: 30px;
+ background-color:#d051e9 ;
+ text-align: center;
+ border-radius: 20px;
+ padding-top: 14px;   
+ box-shadow: 0 0 10px rgba(245, 230, 230, 0.583);
+ transition: 0.3s; }
 
 
                .Bcard:hover {
@@ -333,10 +341,15 @@ visibility: visible;
             
                    padding: 25px 20px 20px 20px;
                    gap:20px;
+                  
                       }
                 .footer h2 {
-                  font-family: Shrikhand, sans-serif;
+                  //font-family: Shrikhand, sans-serif;
                   margin-bottom: 20px;
+                  font-family: 'Roboto' sans-serif;
+                  font-style :italic;
+                  
+                  font-size: 20px;
                 }  
                 .footer li  {
                      color:whitesmoke;
@@ -354,8 +367,8 @@ visibility: visible;
 
 /* Mobile Iphone 8 */
 
-@media screen  and (min-width: 375px) 
-               and (max-width: 667px) {
+//@media screen  and (min-width: 375px) 
+          //     and (max-width: 667px) {
 
 
 
@@ -402,19 +415,21 @@ visibility: visible;
               font-size: 25px;
               border: none;   }                  
 
+              
  /* Menu title   */ 
+ /*
              .Mtitle { 
-               width: 370px;
+               width:96%;
                height: 62px;  
                background: whitesmoke;
-               
+              }  
              .accomm-text h1 {
                 font-family: 'Shrikhand';
              }
-               }  
+               
              .fa-stack{
-                margin-left: 310px;
-              // margin-left: 96%;  
+               // margin-left: 320px;
+                margin-left: 95%;  
                 margin-top: -60px;
                 width: 30px;
                 font-size: 30px;  }
@@ -432,6 +447,7 @@ visibility: visible;
                   opacity: 100%;
                   cursor: pointer;
                                }                
+*/
 
              .Mcard {
               display: flex;
@@ -540,7 +556,7 @@ visibility: visible;
             width: 100%;  }
 
 /* Order button */
-           .Bcard {
+ /*          .Bcard {
               display: flex;
              flex-direction: column;
              width:200px;
@@ -561,9 +577,9 @@ visibility: visible;
            .Bcard:hover {
               box-shadow: 0 0 10px rgb(51, 51, 51);
               transform: scale(1.02);}
-
+*/
 /* Footer section */
-
+/*
 .footer {
   display: flex;
   background-color: #5e5c5c;
@@ -574,7 +590,7 @@ visibility: visible;
   gap:20px;
      }
 .footer h2 {
- font-family: Shrikhand, sans-serif;
+ //font-family: Shrikhand, sans-serif;
  margin-bottom: 20px;
 }  
 .footer li  {
@@ -585,9 +601,9 @@ visibility: visible;
  text-decoration: none;
  color:whitesmoke;
  font-weight: 400;
- height: fit-content;}
+ height: fit-content;}  */
 
-            }   
+            //}   
 
             
 
@@ -771,7 +787,7 @@ visibility: visible;
               // justify-content: center;
                margin-top: 30px;
                margin-bottom: 30px;
-               background-color:#f593d9 ;
+               background-color:#d051e9 ;
                text-align: center;
                border-radius: 20px;
                padding-top: 10px;
