@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  font-family: "Shrikhand";
+  font-family: "roboto";
   overflow-x: hidden;
   background: whitesmoke;
 }
@@ -75,7 +75,7 @@ a {
   height: 67px;
   margin-left: 0px;
   margin-top: 0px;
-  background-color: rgb(224, 224, 28);
+  background-color: rgb(9, 160, 140);
   display: flex;
   white-space: nowrap;
   justify-content: center;
@@ -96,7 +96,7 @@ a {
 }
 
 input {
-  background-color: rgb(224, 224, 222);
+  background-color: rgb(177, 177, 14);
   height: 66px;
   margin-top: -60px;
   margin-left: 30px;
@@ -687,6 +687,9 @@ fieldset.filters {
     width: 135px;
     margin-left: 30px;
     border: none;
+    font-family: "roboto";
+    font-weight: 800;
+    font-size: 18px;
   }
   .search {
     display: flex;
@@ -1131,7 +1134,7 @@ fieldset.filters {
   .search {
     border: none;
     height: 67px;
-    background-color: rgb(224, 224, 222);
+    background-color: rgb(222, 224, 222);
     display: flex;
     font-family: "Shrikhand";
     font-size: 32px;
