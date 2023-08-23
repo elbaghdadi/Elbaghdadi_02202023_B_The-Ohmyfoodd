@@ -469,6 +469,7 @@
                  }
                 
 
+
 /* Footer section */
 
 .footer {
@@ -479,10 +480,15 @@
 
   padding: 25px 20px 20px 20px;
   gap:20px;
+ 
      }
 .footer h2 {
- font-family: Shrikhand, sans-serif;
+ //font-family: Shrikhand, sans-serif;
  margin-bottom: 20px;
+ font-family: 'Roboto';
+ font-style :italic;
+ 
+ font-size: 20px;
 }  
 .footer li  {
     color:whitesmoke;
@@ -494,7 +500,6 @@
  font-weight: 400;
  height: fit-content;}
 
-  
 // Loader
 
 .restaurant-loader {

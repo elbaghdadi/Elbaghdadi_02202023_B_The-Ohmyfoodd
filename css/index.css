@@ -522,8 +522,10 @@ fieldset.filters {
 }
 
 .footer h2 {
-  font-family: Shrikhand, sans-serif;
   margin-bottom: 20px;
+  font-family: "Roboto";
+  font-style: italic;
+  font-size: 20px;
 }
 
 .footer li {
