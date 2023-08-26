@@ -11,6 +11,7 @@ html {
 body {
   overflow-x: hidden;
   background: whitesmoke;
+  font-family: "Roboto";
 }
 
 h2 {
@@ -120,9 +121,8 @@ a {
 }
 
 .Mtitle h2 {
-  font-family: "Roboto";
-  font-style: italic;
-  font-size: 36px;
+  font-family: "Shrikhand";
+  font-size: 32px;
 }
 
 .Mcard {
@@ -335,9 +335,8 @@ a {
 }
 
 .footer h2 {
+  font-family: Shrikhand, sans-serif;
   margin-bottom: 20px;
-  font-family: "Roboto";
-  font-style: italic;
   font-size: 20px;
 }
 
@@ -367,7 +366,7 @@ header {
 
 body {
   background: whitesmoke;
-  font-family: "Shrikhand";
+  font-family: "Roboto";
 }
 
 header a:hover {
@@ -585,6 +584,17 @@ header a:hover {
 /*////////////////////////////////////////////////  */
 /*             desktop                   */
 @media screen and (min-width: 992px) {
+  .logo {
+    align-content: center;
+    align-self: center;
+    margin-top: -35px;
+    width: 200px;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .mobilelogo {
+    display: none;
+  }
   /* Menu title  */
   .Mtitle {
     width: 100%;
@@ -646,9 +656,44 @@ header a:hover {
     box-shadow: 0 0 10px rgb(51, 51, 51);
     transform: scale(1.02);
   }
+  /* Order button */
+  .Bcard {
+    width: 200px;
+    color: whitesmoke;
+    background: whitesmoke;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 36%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: rgb(196, 58, 175);
+    background: linear-gradient(225deg, rgb(192, 70, 233), rgb(243, 83, 219));
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 10px;
+    box-shadow: 0 0 10px rgba(245, 230, 230, 0.583);
+    transition: 0.3s;
+  }
 }
 /*             Tablet                */
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  header {
+    height: 80px;
+    margin-top: 0px;
+    padding-bottom: 2px;
+    display: flex;
+    background-color: whitesmoke;
+  }
+  .logo {
+    align-content: center;
+    align-self: center;
+    margin-left: 270px;
+    width: 200px;
+    height: 60;
+  }
+  .mobilelogo {
+    display: none;
+  }
   /* Menu title  */
   .Mtitle {
     display: flex;
@@ -659,7 +704,7 @@ header a:hover {
     padding: 10px;
     flex-direction: column;
     justify-content: space-around;
-    font-family: Shrikhand, sans-serif;
+    font-family: "Shrikhand ";
   }
   .Mcard {
     display: flex;
@@ -684,7 +729,7 @@ header a:hover {
   #ENTREES {
     background-color: whitesmoke;
     margin-top: 0px;
-    width: 48%;
+    width: 46%;
     border-radius: 12px;
   }
   #ENTREES h2 {
@@ -694,7 +739,7 @@ header a:hover {
   #DESSERTS {
     background-color: whitesmoke;
     margin-top: 20px;
-    width: 48%;
+    width: 46%;
     border-radius: 12px;
   }
   #DESSERTS h2 {
@@ -704,7 +749,7 @@ header a:hover {
   #Mdish {
     background-color: whitesmoke;
     margin-top: 0px;
-    width: 48%;
+    width: 46%;
     border-radius: 12px;
   }
   #Mdish h2 {
