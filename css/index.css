@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  font-family: "roboto";
+  font-family: "Roboto";
   overflow-x: hidden;
   background: whitesmoke;
 }
@@ -129,7 +129,6 @@ fieldset.filters {
   width: 100%;
   flex-direction: row;
   margin-top: 20px;
-  font-family: "Shrikhand";
   font-size: 18px;
   justify-content: center;
 }
@@ -386,7 +385,6 @@ fieldset.filters {
 /* Restaurants section */
 .accomm-headings {
   width: 100%;
-  margin-top: 15px;
   margin-bottom: 15px;
   margin-left: 37px;
   height: -moz-fit-content;
@@ -523,8 +521,7 @@ fieldset.filters {
 
 .footer h2 {
   margin-bottom: 20px;
-  font-family: "Roboto";
-  font-style: italic;
+  font-family: "Shrikhand";
   font-size: 20px;
 }
 
@@ -647,7 +644,7 @@ fieldset.filters {
     width: 100%;
   }
   body {
-    font-family: "Shrikhand";
+    font-family: "Roboto";
     overflow-x: hidden;
     background: whitesmoke;
   }
@@ -689,8 +686,8 @@ fieldset.filters {
     width: 135px;
     margin-left: 30px;
     border: none;
-    font-family: "roboto";
-    font-weight: 800;
+    font-family: "Roboto";
+    font-weight: 600;
     font-size: 18px;
   }
   .search {
@@ -1033,6 +1030,7 @@ fieldset.filters {
     height: -moz-fit-content;
     height: fit-content;
   }
+  /* Loader  */
   .restaurant-loader {
     width: 150px;
     height: 150px;
@@ -1132,6 +1130,7 @@ fieldset.filters {
   /* search box */
   .body {
     background-color: whitesmoke;
+    font-family: "Roboto";
   }
   .search {
     border: none;
@@ -1274,7 +1273,7 @@ fieldset.filters {
     height: auto;
     width: 330px;
     margin-top: -30px;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(150, 150, 150, 0.583);
     transition: 0.3s;
   }
@@ -1283,16 +1282,13 @@ fieldset.filters {
     height: auto;
     width: 330px;
     margin-top: -30px;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(150, 150, 150, 0.583);
     transition: 0.3s;
   }
   .Acard:hover {
     box-shadow: 0 0 10px rgb(51, 51, 51);
     transform: scale(1.02);
-  }
-  .accomm-text {
-    height: 100px;
   }
   .accommthumb {
     max-width: 100%;
@@ -1303,6 +1299,7 @@ fieldset.filters {
        object-position: 50%;
   }
   .Acard-title {
+    font-family: "Shrikhand";
     font-weight: bold;
   }
   .fa-stack {
