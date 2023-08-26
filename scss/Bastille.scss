@@ -604,18 +604,38 @@ visibility: visible;
 /*////////////////////////////////////////////////  */
 /*             desktop                   */  
 @media screen and (min-width: 992px)  {
+
+  header      {
  
+    height: 60px;
+    margin-top: 0px;
+    flex-direction: column;
+    padding-bottom: 2px;
+    display: block;
+    background-color:rgb(226, 36, 36);     
+    
+                       } 
+
+
   .logo {
-            align-content: center;
-            align-self: center;
-            margin-top: -35px;
-           // margin-left: 370px;
-            width: 200px;
-           
-            height: fit-content;}
- 
-           .mobilelogo {
-               display: none; }
+     
+     margin-top: 0px;
+     margin-left: 40px;
+     width: 200px;
+     background-color: #0065fc;
+     margin-bottom: 20px;
+     height: fit-content;}
+   
+ /*  back buttom  */
+ .homebutton      {
+     width:fit-content; 
+     margin-left: 20px;
+     margin-top: 15px;
+     cursor: pointer;  
+     background-color:rgb(207, 10, 10);
+     font-size: 25px;
+     border: none;   } 
+
 
       /* Menu title  */
                .Mtitle { 
