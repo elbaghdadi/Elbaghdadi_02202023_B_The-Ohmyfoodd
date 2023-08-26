@@ -32,7 +32,7 @@ header {
   font-family: "Shrikhand";
   font-size: 32px;
   display: flex;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 header a:hover {
@@ -1127,6 +1127,34 @@ fieldset.filters {
   .double-column {
     flex: 2;
   }
+  header {
+    justify-content: center;
+    height: 60px;
+    margin-top: 0px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2px;
+    font-family: "Shrikhand";
+    font-size: 32px;
+    display: flex;
+    background-color: white;
+  }
+  header a:hover {
+    border-top: none;
+    padding-bottom: 0px;
+    color: #0065fc;
+    width: 100%;
+  }
+  .logo {
+    display: block;
+    background-color: white;
+    width: 250px;
+    height: 160px;
+    margin-bottom: 0px;
+  }
+  .mobilelogo {
+    display: none;
+  }
   /* search box */
   .body {
     background-color: whitesmoke;
@@ -1160,6 +1188,41 @@ fieldset.filters {
     flex-direction: row;
     width: auto;
     background-color: whitesmoke;
+  }
+  /*    how it works section  */
+  .works {
+    margin-right: 2%;
+    border-radius: 0px;
+    width: 47%;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  /* Book menu  */
+  .bookM {
+    width: 47%;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    row-gap: 30px;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+    justify-content: center;
+    gap: 40px;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 2%;
+    margin-right: 1px;
   }
   .restaurant-loader {
     width: 150px;
