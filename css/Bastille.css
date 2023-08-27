@@ -583,23 +583,25 @@ header a:hover {
  height: fit-content;}  */
 /*////////////////////////////////////////////////  */
 /*             desktop                   */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 962px) {
   header {
     height: 60px;
     margin-top: 0px;
-    flex-direction: column;
+    flex-direction: row;
     padding-bottom: 2px;
-    display: block;
-    background-color: rgb(226, 36, 36);
+    display: flex;
+    background-color: white;
   }
   .logo {
-    margin-top: 0px;
-    margin-left: 40px;
-    width: 200px;
-    background-color: #0065fc;
-    margin-bottom: 20px;
+    display: none;
     height: -moz-fit-content;
     height: fit-content;
+  }
+  .mobilelogo {
+    background-color: white;
+    margin-top: 8px;
+    margin-left: 510px;
+    width: 200px;
   }
   /*  back buttom  */
   .homebutton {
@@ -608,7 +610,7 @@ header a:hover {
     margin-left: 20px;
     margin-top: 15px;
     cursor: pointer;
-    background-color: rgb(207, 10, 10);
+    background-color: white;
     font-size: 25px;
     border: none;
   }
@@ -637,16 +639,36 @@ header a:hover {
   .Main {
     display: flex;
     flex-flow: row wrap;
+    row-gap: 1px;
     justify-content: space-around;
+  }
+  /*                     * Entrees section  */
+  #ENTREES {
+    background-color: whitesmoke;
+    margin-top: 0px;
+    width: 30%;
+    border-radius: 12px;
   }
   #ENTREES h2 {
     margin-left: 25px;
   }
   /* Desserts section  */
+  #DESSERTS {
+    background-color: whitesmoke;
+    margin-top: 0px;
+    width: 30%;
+    border-radius: 12px;
+  }
   #DESSERTS h2 {
     margin-left: 25px;
   }
   /* Dish section  */
+  #Mdish {
+    background-color: whitesmoke;
+    margin-top: 0px;
+    width: 30%;
+    border-radius: 12px;
+  }
   #Mdish h2 {
     margin-left: 25px;
   }
@@ -675,12 +697,13 @@ header a:hover {
   }
   /* Order button */
   .Bcard {
+    display: flex;
     width: 200px;
     color: whitesmoke;
     background: whitesmoke;
     height: 50px;
     cursor: pointer;
-    margin-left: 36%;
+    margin-left: 46%;
     margin-top: 30px;
     margin-bottom: 30px;
     background: rgb(196, 58, 175);
@@ -695,21 +718,34 @@ header a:hover {
 /*             Tablet                */
 @media screen and (min-width: 768px) and (max-width: 991px) {
   header {
-    height: 80px;
+    height: 60px;
     margin-top: 0px;
+    flex-direction: row;
     padding-bottom: 2px;
     display: flex;
-    background-color: whitesmoke;
+    background-color: white;
   }
   .logo {
-    align-content: center;
-    align-self: center;
-    margin-left: 270px;
-    width: 200px;
-    height: 60;
+    display: none;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   .mobilelogo {
-    display: none;
+    background-color: white;
+    margin-top: 8px;
+    margin-left: 250px;
+    width: 200px;
+  }
+  /*  back buttom  */
+  .homebutton {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: white;
+    font-size: 25px;
+    border: none;
   }
   /* Menu title  */
   .Mtitle {
