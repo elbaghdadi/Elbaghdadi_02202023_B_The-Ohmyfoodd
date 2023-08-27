@@ -385,7 +385,7 @@ fieldset.filters {
 /* Restaurants section */
 .accomm-headings {
   width: 100%;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   margin-left: 37px;
   height: -moz-fit-content;
   height: fit-content;
@@ -914,7 +914,7 @@ fieldset.filters {
     width: 100%;
     margin-left: 2px;
     margin-top: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     height: -moz-fit-content;
     height: fit-content;
   }
@@ -987,7 +987,7 @@ fieldset.filters {
     margin-top: -5px;
   }
   .fa-stack {
-    margin-left: 92%;
+    margin-left: 90%;
     margin-top: -75px;
     font-size: 25px;
     width: 25px;
@@ -1372,6 +1372,10 @@ fieldset.filters {
   .accomm-text {
     margin-left: 10px;
   }
+  .heart {
+    margin-left: 130px;
+    margin-top: -5px;
+  }
   .fa-stack {
     margin-left: 90%;
     margin-top: -80px;
@@ -1624,6 +1628,14 @@ fieldset.filters {
     margin-left: 2%;
     margin-right: 1px;
   }
+  .accomm-headings {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 37px;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
   #Restaurants {
     display: flex;
     width: -moz-fit-content;
@@ -1642,7 +1654,7 @@ fieldset.filters {
     display: flex;
     height: auto;
     width: 290px;
-    margin-top: 10px;
+    margin-top: 3px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(150, 150, 150, 0.583);
     transition: 0.3s;
@@ -1651,7 +1663,7 @@ fieldset.filters {
     display: flex;
     height: auto;
     width: 290px;
-    margin-top: 10px;
+    margin-top: 3px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(150, 150, 150, 0.583);
     transition: 0.3s;
